@@ -1,6 +1,6 @@
 import math
 
-## Función Suma: Suma dos valores enteros.
+## Función Suma: suma dos valores enteros.
 def suma (a, b):
     try:
         num_a = int(a)
@@ -9,7 +9,7 @@ def suma (a, b):
     except(TypeError, ValueError):
         return None
 
-# Función Resta: Resta dos valores enteros.
+# Función Resta: resta dos valores enteros.
 def resta(a, b):
     try:
         num_a = int(a)
@@ -18,7 +18,7 @@ def resta(a, b):
     except(TypeError, ValueError):
         return None
 
-# Función Cuadrado de un Binomio: Calcula el cuadrado de la suma de 
+# Función Cuadrado de un Binomio: calcula el cuadrado de la suma de 
 # dos valores enteros utilizando la fórmula (a + b)² = a² + 2ab + b².
 def cuadrado_binomio(a, b):
     try:
